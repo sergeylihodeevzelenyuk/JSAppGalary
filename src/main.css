@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #3b5998;
+}
+
+#app {
+  display: flex;
+}
+
+.stickers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  min-height: 100vh;
+  border: 1px solid rgba(138, 137, 137, 0.692);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  padding: 10px 20px;
+}
+
+.albums-container {
+  width: 40%;
+  margin: 15px 10px 20px 20px;
+  padding-top: -5px;
+}
+
+.stickers-container {
+  width: 60%;
+  margin: 20px 20px 20px 10px;
+}
+
+.album-body {
+  margin: 5px 0;
+  padding: 5px 15px;
+  border: 1px solid rgba(138, 137, 137, 0.692);
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  border-radius: 5px;
+}
+
+.active {
+  background-color: rgba(202, 217, 230, 0.705);
+}
+
+.photo {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: 0 5px 10px;
+}
+
+.photo__id {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.photo__id span {
+  display: block;
+}
